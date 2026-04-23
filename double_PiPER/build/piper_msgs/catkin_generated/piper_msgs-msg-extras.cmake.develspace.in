@@ -1,0 +1,2 @@
+set(piper_msgs_MESSAGE_FILES "/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_msgs/msg/PiperStatusMsg.msg;/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_msgs/msg/PosCmd.msg;/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_msgs/msg/PiperEulerPose.msg")
+set(piper_msgs_SERVICE_FILES "/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_msgs/srv/Enable.srv;/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_msgs/srv/Gripper.srv;/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_msgs/srv/GoZero.srv")

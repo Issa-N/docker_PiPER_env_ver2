@@ -1,0 +1,8 @@
+prefix=/home/rllab/docker_PiPER_env_ver2/double_PiPER/install
+
+Name: moveit_setup_assistant
+Description: Description of moveit_setup_assistant
+Version: 1.1.11
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_setup_assistant_tools
+Requires: moveit_ros_planning moveit_ros_visualization roscpp

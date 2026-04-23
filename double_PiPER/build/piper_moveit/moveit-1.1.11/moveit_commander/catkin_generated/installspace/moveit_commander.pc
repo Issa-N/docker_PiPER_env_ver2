@@ -1,0 +1,8 @@
+prefix=/home/rllab/docker_PiPER_env_ver2/double_PiPER/install
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 1.1.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

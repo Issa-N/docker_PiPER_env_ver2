@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rllab/docker_PiPER_env_ver2/double_PiPER/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/rllab/docker_PiPER_env_ver2/double_PiPER/devel
+
+Name: chomp_motion_planner
+Description: Description of chomp_motion_planner
+Version: 1.1.11
+Cflags: -I/home/rllab/docker_PiPER_env_ver2/double_PiPER/src/piper_moveit/moveit-1.1.11/moveit_planners/chomp/chomp_motion_planner/include
+Libs: -L${prefix}/lib -lchomp_motion_planner
+Requires: 
