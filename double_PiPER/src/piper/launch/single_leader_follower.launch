@@ -3,6 +3,7 @@
   <arg name="can_leader_port" default="can1" />
   <arg name="auto_enable" default="true" />
   <arg name="gripper_val_mutiple" default="1" />
+  <arg name="video_port" default="0" />
 
   <!-- type="piper_ctrl_leader_node.py" -->
   <!-- ================= Leader ================= -->
@@ -40,6 +41,13 @@
       <!-- leader pose topic -->
       <remap from="/end_pose_euler" to="/leader/end_pose_euler" />
     </node>
+
+    <!-- <node name="camera_pub"
+          pkg="piper"
+          type="camera_pub.py"
+          output="screen">
+      <param name="video_port" value="$(arg video_port)" />
+    </node> -->
   </group>
 
 </launch>
